@@ -27,3 +27,11 @@ document.getElementById("content").innerHTML =
 Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ecco la password (insicurissima) che ho generato per te: ${stupidpassword}
 `;
 
+
+// BONUS
+
+const btn = document.querySelector("button")
+
+btn.onclick = () => {
+  alert("I say don't click, you are a rebel!");
+}
