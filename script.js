@@ -24,6 +24,6 @@ let stupidpassword = "nomecognomecolorepreferito22"
 
 document.getElementById("content").innerHTML =
 `
-Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ecco la password (insicurissima) che ho generato per te: $(stupidpassowrd)
+Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ecco la password (insicurissima) che ho generato per te: ${stupidpassword}
 `;
 
