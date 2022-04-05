@@ -11,3 +11,10 @@
   b. Creare sezione dove stampare il contenuto
   c. Stampare il contenuto
 */
+
+
+// Definire le variabili
+
+let = prompt ("firstName")
+let = prompt ("surName")
+let = prompt ("favColor")
