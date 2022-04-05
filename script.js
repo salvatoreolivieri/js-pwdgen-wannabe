@@ -18,13 +18,13 @@
 const firstName = prompt("Inserisci il tuo Nome");
 const surName = prompt("Inserisci il tuo Cognome");
 const favColor = prompt("Inserisci il tuo Colore Preferito");
-let stupidpassword = "nomecognomecolorepreferito22"
+
 
 // Stampare il contenuto
 
 document.getElementById("content").innerHTML =
 `
-Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ecco la password (insicurissima) che ho generato per te: ${stupidpassword}
+Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ho generato una password (insicurissima) con i tuoi dati, ecco a te: ${firstName}${surName}${favColor}22.
 `;
 
 
@@ -33,5 +33,5 @@ Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ecco la p
 const btn = document.querySelector("button")
 
 btn.onclick = () => {
-  alert("I say don't click, you are a rebel!");
+  alert("I say don't click, you are a rebel, I like you!");
 }
