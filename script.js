@@ -18,11 +18,12 @@
 const firstName = prompt("Inserisci il tuo Nome");
 const surName = prompt("Inserisci il tuo Cognome");
 const favColor = prompt("Inserisci il tuo Colore Preferito");
+let stupidpassword = "nomecognomecolorepreferito22"
 
 // Stampare il contenuto
 
 document.getElementById("content").innerHTML =
 `
-Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ecco la password (insicurissima) che ho generato per te: nomecognomecolorepreferito22
+Ciao ${firstName} ${surName}, il ${favColor} è proprio un bel colore. Ecco la password (insicurissima) che ho generato per te: $(stupidpassowrd)
 `;
 
